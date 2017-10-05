@@ -1,0 +1,6 @@
+{
+    "name": "instahangout",
+    "description": "a simple hangout app",
+    "repository": "https://github.com/bexis13/insta-hangout",
+    "keywords": ["node","express","heroku","mongodb","mongoose","mlab","passport"]
+}
