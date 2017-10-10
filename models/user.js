@@ -4,7 +4,11 @@ var passportLocalMongoose = require("passport-local-mongoose");
 var UserSchema = new mongoose.Schema({
     name : String,
     email: String,
-    password : String
+    password : String,
+    location: {
+      type: "Point",
+      coordinates: []
+    }
 });
 
 UserSchema.plugin(passportLocalMongoose);
